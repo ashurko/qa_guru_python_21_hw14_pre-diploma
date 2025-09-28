@@ -1,7 +1,7 @@
 # 🎓 QA.GURU Playrix Project
 
 *Небольшой проект по автоматизации Playrix, базовой проверке нескольких кейсов*
-# <code><img width="30%" title="plrx_logo" src="data/logo/300_transparent.png" /></code>
+# <img width="30%" title="plrx_logo" src="data/logo/300_transparent.png" />
 ## О проекте
 
 Этот проект является дипломной работой по курсу QA.GURU и представляет собой фреймворк для автоматизации тестирования веб-сайта ["Playrix"](https://www.playrix.com). В реализации использованы инструменты и библиотеки:
@@ -41,8 +41,8 @@
 
 Для просмотра результатов тестового прогона в Allure клик на соответствующую ему иконку
 
-<p><img title="Allure" src="data/logo/allure_result1.png"></p>
 <p><img title="Allure" src="data/logo/allure_result2.png"></p>
+<p><img title="Allure" src="data/logo/allure_result1.png"></p>
 
 
 
