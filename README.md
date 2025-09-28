@@ -45,6 +45,11 @@
 <p><img title="Allure" src="data/logo/allure_result1.png"></p>
 
 
+## Если тесты запускались локально, то результаты можно посмотреть командой: 
+
+```bash
+allure serve reports/allure-results
+```
 
 Для просмотра результатов тестового запуска в Allure TestOps кликнув на соответствующую ему иконку в джобе Jenkins
 
