@@ -1,6 +1,6 @@
 # 🎓 QA.GURU Playrix Project
 
-*Небольшой проект по автоматизации а основе сайта Playrix, базовой проверке нескольких кейсов*
+*Небольшой проект по автоматизации на основе сайта Playrix, базовой проверке нескольких кейсов*
 # <img width="30%" title="plrx_logo" src="data/logo/300_transparent.png" />
 ## О проекте
 
@@ -39,7 +39,7 @@
 
 ## <img width="4%" title="allure" src="data/logo/allure_report.png"> Визуализация результатов (Allure Reports и Allure TestOps)
 
-Для просмотра результатов тестового запуска в Allure клик на соответствующую ему иконку
+Для просмотра результатов тестового запуска в Allure необходимо кликнуть на соответствующую ему иконку
 
 <p><img title="Allure" src="data/logo/allure_result2.png"></p>
 <p><img title="Allure" src="data/logo/allure_result1.png"></p>
@@ -51,7 +51,7 @@
 allure serve reports/allure-results
 ```
 
-Для просмотра результатов тестового запуска в Allure TestOps кликнув на соответствующую ему иконку в джобе Jenkins
+Для просмотра результатов тестового запуска в Allure TestOps необходимо кликнуть на соответствующую ему иконку в джобе Jenkins
 
 <p><img title="allure_testops" src="data/logo/job_testops.png"></p>БУДЕТ ДОПОЛНЕНО
 <p><img title="allure_testops" src="data/logo/img_testops.png"></p>БУДЕТ ДОПОЛНЕНО
