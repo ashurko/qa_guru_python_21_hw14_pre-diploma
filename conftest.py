@@ -19,6 +19,12 @@ def pytest_addoption(parser):
 def load_env():
     load_dotenv()
 
+@pytest.fixture(scope='function', autouse=True)
+def browser_open():
+    browser.open('https://playrix.com/')
+    yield
+    browser.quit()
+
 @pytest.fixture(scope="function", autouse=True)
 def setup_browser(request):
     browser_version = request.config.getoption('--browser_version')
@@ -55,15 +61,3 @@ def setup_browser(request):
     attach.add_video(browser)
 
     browser.quit()
-
-
-
-# import pytest
-# from selene import browser
-#
-#
-# @pytest.fixture(scope='function', autouse=True)
-# def browser_open():
-#     browser.open('https://playrix.com/')
-#     yield
-#     browser.quit()
