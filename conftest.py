@@ -19,11 +19,11 @@ def pytest_addoption(parser):
 def load_env():
     load_dotenv()
 
-@pytest.fixture(scope='function', autouse=True)
-def browser_open():
-    browser.open('https://playrix.com/')
-    yield
-    browser.quit()
+# @pytest.fixture(scope='function', autouse=True)
+# def browser_open():
+#     browser.open('https://playrix.com/')
+#     yield
+#     browser.quit()
 
 @pytest.fixture(scope="function", autouse=True)
 def setup_browser(request):
@@ -50,6 +50,7 @@ def setup_browser(request):
     )
     browser.config.driver = driver
 
+    browser.open('https://playrix.com/')
     browser.config.window_width = 1920
     browser.config.window_height = 1080
 
