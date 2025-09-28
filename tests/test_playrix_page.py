@@ -7,14 +7,16 @@ game_page = GamesPage()
 jobs_page = JobsPage()
 
 @allure.feature("Главная")
+@allure.link("https://playrix.com/", name="Main page")
 def test_home_title_contains_playrix():
-    home_page.open('https://playrix.com/').should_have_title("Playrix")
+    home_page.should_have_title("Playrix")
 
 @allure.feature("Саппорт")
 def test_go_to_support_page():
     home_page.go_to_contact().go_to_helpshift().check_helpshift_url()
 
 @allure.feature("Вакансии")
+@allure.link("https://playrix.com/job/open", name="Job page")
 def test_open_job_page():
     jobs_page.open_job_page("QA").should_have_qa_jobs("QA")
 
